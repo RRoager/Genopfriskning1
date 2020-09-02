@@ -28,8 +28,8 @@ public class Sortering
         String ord5 = sc.nextLine();
         al.add(ord5);
         
-        //Sortere ArrayList og vender den så den starter modsat abc
-        Collections.sort(al, Collections.reverseOrder());
+        //Sortere ArrayList og vender den så den starter modsat "abc"
+        al.sort(Collections.reverseOrder());
         
         //Printer den nu sorterede ArrayList
         System.out.println(al);
