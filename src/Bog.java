@@ -1,9 +1,11 @@
 public class Bog
 {
+    //Opretter attributter
     private int isbn;
     private String title;
     private int udgivelsesår;
     
+    //Laver construktor
     public Bog(int isbn, String title, int udgivelsesår)
     {
         this.isbn = isbn;
@@ -11,6 +13,7 @@ public class Bog
         this.udgivelsesår = udgivelsesår;
     }
     
+    //Laver getter/setter på vores attributter
     public int getIsbn()
     {
         return isbn;
@@ -41,6 +44,7 @@ public class Bog
         this.udgivelsesår = udgivelsesår;
     }
     
+    //Overrider default toString
     @Override
     public String toString()
     {
