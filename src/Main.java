@@ -53,6 +53,9 @@ public class Main
     
         //Kalder sorterOrd metoden
         s.sorterOrd();
+
+        //Opgave 7: Søgning
+
     }
     
     
