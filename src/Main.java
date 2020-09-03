@@ -1,9 +1,12 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main
 {
     public static void main(String[] args)
     {
+        Scanner sc = new Scanner(System.in);
+
         //Opgave 1: ArrayList (StringFound)
         ArrayList<String> arr = new ArrayList<String>();
         arr.add("Rasmus");
@@ -39,7 +42,10 @@ public class Main
         k.kvadratPrinter(5);
 
         //Opgave 5: ProperCase
-
+        Proper p = new Proper();
+        String userInput = sc.nextLine();
+        p.ændreString(userInput);
+        System.out.println(p.ændreString(userInput));
 
         //Opgave 6: Sortering
         //Opretter et objekt af Sortering klassen
