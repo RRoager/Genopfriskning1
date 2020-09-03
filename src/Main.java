@@ -37,7 +37,10 @@ public class Main
     
         //Kalder metoden (kvadratets størrelse)
         k.kvadratPrinter(5);
-    
+
+        //Opgave 5: ProperCase
+
+
         //Opgave 6: Sortering
         //Opretter et objekt af Sortering klassen
         Sortering s = new Sortering();
